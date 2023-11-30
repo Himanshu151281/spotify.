@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome main jitne bhi icon hain usko link krne ke liye -->
+    <link rel="icon" href="./Icons/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts linking open -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- google fonts linking close -->
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+
+
+
+                <div class="nav-option" style="opacity: 1;">
+                    <!-- icon -->
+                    <i class="fa-solid fa-house"></i>
+                    <!-- opcity 1 for bright icon bar -->
+                    <a href="#"><b>Home</b></a>
+                </div>
+
+
+               <div class="nav-option">
+                     <!-- icon -->
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <a href="#">Search</a>
+                </div>
+
+
+
+            </div>
+                                                        <!-- nav option home and search box end -->
+
+
+            <div class="library">
+                <div class="options">
+
+
+                    
+                    <div class="lib-option nav-option">
+                        <!-- nav option to get hower effect -->
+                        <!-- adding image expect of icon -->
+                        <img src="./Icons/library_icon.png" alt="Sher internet file error">
+                        <!-- opcity 1 for bright icon bar -->
+                        <a href="#">Your Library</a>
+                    </div>
+
+
+                    <div class="icon">
+                        <!-- icon -->
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        <!-- opcity 1 for bright icon bar -->
+                    </div>
+                </div>  
+
+
+
+
+
+
+
+<!-- boxes of playlist and podcast -->
+                
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'will help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+
+
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We will keep you updated on new episodes</p>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-content">
+             <!-- navbar -->
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./Icons/backward_icon.png">
+                    <img src="./Icons/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                <!-- download button -->
+                     <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                     <!-- margin between explore premium and installl aap icons by adding style margin left 5px in html -->
+                     <i class="fa-regular fa-user"></i>
+                </div>              
+            </div>
+
+
+
+
+
+            <!-- card dic -->
+            <div class="cards">
+                <h2>Recently Played</h2> 
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Icons/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of most played...</p>
+                    </div>
+                </div>
+
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Icons/card2img.jpeg" class="card-img">
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Icons/card3img.jpeg" class="card-img">
+                        <p class="card-title">Pasoori Nu (From "S...</p>
+                        <p class="card-info">Arijit Singh, Rochak Kohli, Tulsi Kumar</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Icons/card4img.jpeg" class="card-img">
+                        <p class="card-title">Naa Readey (From L...</p>
+                        <p class="card-info">Anirudh Ravichander, Thalepati Vijay, Asal...</p>
+                    </div>
+                </div>
+               
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./Icons/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Your weekly update of most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Icons/card6img.jpeg" class="card-img">
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your weekly update of most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Icons/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of most played...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+       
+
+
+
+
+
+
+        <div class="music-player">
+
+
+
+
+            <div class="album">
+                <div class="album-l-side-icons">
+                <!-- <img src="./Icons/daylight.jfif" alt="" class="sl"> -->                    
+                        <img src="./Icons/daylight.jfif" class="album-icon">      
+                        <!-- <img src="./Icons/card4img.jpeg" alt="">   -->
+                        
+                        <div class="iop">
+                                <p><b>Daylight</b></p>
+                                <p class="singer">David Jain</p>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-light fa-box-archive"></i>
+                             
+                        
+                        
+                    
+                </div>
+            </div>
+          
+
+
+
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./Icons/player_icon1.png" class="player-control-icon">
+                    <img src="./Icons/player_icon2.png" class="player-control-icon">
+                    <!-- opacity = 1  and  big height size increase  no font size because this is not font this is image-->
+                    <img src="./Icons/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./Icons/player_icon4.png" class="player-control-icon">
+                    <img src="./Icons/player_icon5.png" class="player-control-icon">                 
+                </div>
+
+
+                <div class="playback-bar">
+                    <span class="current-time">2:57</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1" value="70">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+
+
+
+
+            <div class="control">
+                <!-- <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-regular fa-bars"></i>            
+                <i class="fa-light fa-microphone-stand"></i> -->
+                <!-- <button class="c-r"><i class="fa-regular fa-circle-play"></i></button>
+                <button class="c-r"><i class="fa-regular fa-bars"></i></button>
+                <button class="c-r"><i class="fa-regular fa-microphone-stand" style="color: #ffffff;"></i></button> -->
+                <!-- <button class="c-r"><i class="fa-light fa-microphone-stand"></i></button> -->
+                <!-- <label for="vo"><button class="c-r"><i class="fa-sharp fa-light fa-volume"></i></button></label>
+                <input type="range" id="vo" min="0" max="100" value="50"> -->
+                
+                <i class="fa-solid fa-play"></i>
+                
+            </div>
+
+
+        </div>   
+    </div>
+</body>
+</html>
